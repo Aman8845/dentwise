@@ -5,20 +5,26 @@ import Hero from "@/components/landing/Hero";
 import HowItWorks from "@/components/landing/HowItWorks";
 import PricingSection from "@/components/landing/PricingSection";
 import WhatToAsk from "@/components/landing/WhatToAsk";
+import { syncUser } from "@/lib/actions/users";
 import { currentUser } from "@clerk/nextjs/server";
+import { redirect } from "next/navigation";
 import React from "react";
 
 const page = async () => {
   const user = await currentUser();
+
+  await syncUser();
+
+  if (user) redirect("/dashboard");
   return (
     <div className="min-h-screen bg-background">
       <Header />
       <Hero />
       <HowItWorks />
       <WhatToAsk />
-      <PricingSection/>
-      <CTA/>
-      <Footer/>
+      <PricingSection />
+      <CTA />
+      <Footer />
     </div>
   );
 };
