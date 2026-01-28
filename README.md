@@ -82,5 +82,5 @@ NEXT_PUBLIC_APP_URL=your_app_url
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
----
-Developed as a **Final Year Project** for advanced AI-driven career tools.
+<!-- ---
+Developed as a **Final Year Project** for advanced AI-driven career tools. -->
