@@ -21,14 +21,19 @@ Dentwise is an intelligent dental appointment and practice-management platform t
 ### 🏠 Landing Pages
 ![Home Page](./public/screenshots/home_page.png)
 
+### Admin Page
 ![Admin Page](./public/screenshots/admin_page.png)
 
+### Appointment Page
 ![Appointment Page](./public/screenshots/appointment_page.png)
 
+### Dashboard Page
 ![Dashboard Page](./public/screenshots/dashboard_page.png)
 
+### Pro Page
 ![Pro Page](./public/screenshots/pro_page.png)
 
+### Voice Page
 ![Voice Page](./public/screenshots/voice_page.png)
 
 ## 🛠️ Tech Stack
